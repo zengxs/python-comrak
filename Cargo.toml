@@ -1,0 +1,13 @@
+[package]
+name = "python-comrak"
+version = "0.1.0"
+authors = ["zengxs <i@zengxs.com>"]
+edition = "2018"
+
+[lib]
+name = "pycomrak"
+crate-type = ["cdylib"]
+
+[dependencies]
+comrak = { path = "./comrak-rs" }
+pyo3 = { version = "0.7.0", features = ["extension-module"] }

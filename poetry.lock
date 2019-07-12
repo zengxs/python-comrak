@@ -1,0 +1,45 @@
+[[package]]
+category = "dev"
+description = "A library implementing the 'SemVer' scheme."
+name = "semantic-version"
+optional = false
+python-versions = "*"
+version = "2.6.0"
+
+[[package]]
+category = "dev"
+description = "Setuptools rust extension plugin"
+name = "setuptools-rust"
+optional = false
+python-versions = "*"
+version = "0.10.6"
+
+[package.dependencies]
+semantic-version = ">=2.6.0"
+toml = ">=0.9.0"
+
+[[package]]
+category = "dev"
+description = "Python Library for Tom's Obvious, Minimal Language"
+name = "toml"
+optional = false
+python-versions = "*"
+version = "0.10.0"
+
+[[package]]
+category = "dev"
+description = "A formatter for Python code."
+name = "yapf"
+optional = false
+python-versions = "*"
+version = "0.28.0"
+
+[metadata]
+content-hash = "2045f5346a2f8318a4822f76241366fdee5de4fbe10354606d50a2e0dea2272f"
+python-versions = "^3.5"
+
+[metadata.hashes]
+semantic-version = ["2a4328680073e9b243667b201119772aefc5fc63ae32398d6afafff07c4f54c0", "2d06ab7372034bcb8b54f2205370f4aa0643c133b7e6dbd129c5200b83ab394b"]
+setuptools-rust = ["4070f249b237ebc4e403478f44a4aa89c9515880fa1beded20d4b25260456503"]
+toml = ["229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c", "235682dd292d5899d361a811df37e04a8828a5b1da3115886b73cf81ebc9100e", "f1db651f9657708513243e61e6cc67d101a39bad662eaa9b5546f789338e07a3"]
+yapf = ["02ace10a00fa2e36c7ebd1df2ead91dbfbd7989686dc4ccbdc549e95d19f5780", "6f94b6a176a7c114cfa6bad86d40f259bbe0f10cf2fa7f2f4b3596fc5802a41b"]

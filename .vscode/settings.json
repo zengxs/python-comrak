@@ -3,14 +3,12 @@
         "poetry.lock": "toml",
     },
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
+        "**/.{git,svn,hg,venv,DS_Store}": true,
+        "**/*.py{c,o,d}": true,
         "**/__pycache__": true,
     },
     "rust-client.channel": "nightly",
     "python.pythonPath": ".venv/bin/python",
+    "python.jediEnabled": true,
     "python.formatting.provider": "yapf",
 }
